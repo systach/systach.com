@@ -12,7 +12,7 @@ const Explore: PageWithLayout = () => {
                 Built
             </p> 
             <ul className="w-full max-w-[400px] p-10 mx-auto">
-                <a href="https://github.com/systach/systach.com" target="_blank" className="w-full flex justify-center px-8 py-4 rounded-md bg-neutral-900 text-white border border-neutral-900 lg:hover:bg-white lg:hover:text-neutral-900 font-medium uppercase tracking-[0.075rem] ring ring-transparent lg:hover:ring-neutral-900 transition-all duration-[0.25s]" rel="noreferrer">
+                <a href="https://github.com/systach/systach.com/blob/master/README.md" target="_blank" className="w-full flex justify-center px-8 py-4 rounded-md bg-neutral-900 text-white border border-neutral-900 lg:hover:bg-white lg:hover:text-neutral-900 font-medium uppercase tracking-[0.075rem] ring ring-transparent lg:hover:ring-neutral-900 transition-all duration-[0.25s]" rel="noreferrer">
                     On-site Systems
                 </a>
             </ul>
