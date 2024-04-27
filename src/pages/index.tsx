@@ -19,29 +19,18 @@ const Home: PageWithLayout<Props> = () => {
             </h1>
             <p className="mb-5 lg:mb-6 text-center font-light text-neutral-400 uppercase tracking-[0.075rem lg:text-lg">
                 We{' '}
-                <Link
-                    href="/explore"
-                    rel="noreferrer"
-                >
-                    <a
-                       className="transition-all duration-[0.35s] ease-in-out lg:hover:text-blue-500/50 lg:hover:underline"
-                    >
-                    Build Systems
+                <Link href="/explore" rel="noreferrer">
+                    <a className="transition-all duration-[0.35s] ease-in-out lg:hover:text-blue-500/50 lg:hover:underline">
+                        Build Systems
                     </a>
                 </Link>{' '}
                 Your Business Needs.
             </p>
-            <div className='flex justify-center items-center mb-4 lg:mb-6'>
-                <Link
-                    rel="noreferrer" 
-                    href="/explore" 
-                    >
-                        <a
-                        className="inline-block px-8 py-4 rounded-md font-medium border border-neutral-900 lg:hover:bg-neutral-900 lg:hover:text-white"
-                        >
-
+            <div className="flex justify-center items-center mb-4 lg:mb-6">
+                <Link rel="noreferrer" href="/explore">
+                    <a className="inline-block px-8 py-4 rounded-md font-medium border border-neutral-900 lg:hover:bg-neutral-900 lg:hover:text-white">
                         Explore What We Built
-                        </a>
+                    </a>
                 </Link>
             </div>
             <div className="flex justify-center items-center">
